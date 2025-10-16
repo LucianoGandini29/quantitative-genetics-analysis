@@ -8,18 +8,18 @@ It includes code for **GLMMs**, **Bayesian models (STAN)**, and **survival analy
 
 ## Main contents
 
-### Bayesian modeling (BRMS)
-Examples of Bayesian inference for quantitative genetics using the **RSTAN** package, including model specification, posterior summaries, pp-checks, and visualization.
+### Bayesian modeling (brms)
+Examples of Bayesian inference for quantitative genetics using the **brms** package, including model specification, posterior summaries, pp-checks, and visualization.
 
-### Survival analysis
-Analysis of time-to-event data using survival models, relevant to experimental data on development time, lifespan, or treatment response.
+### Survival analysis (brms)
+Analysis of censored time-to-event data using bayesian parametric survival models, relevant to experimental data on development time, lifespan, or treatment response.
 
 ### Visualization
 All analyses include reproducible visualizations created with `ggplot2` to communicate statistical results effectively.
 
 ## Tools and packages
 
-- **R** (tidyverse, ggplot2, lme4, survival, INLA, dplyr)
+- **R** (tidyverse, ggplot2, glmmTMB, survival, brms, dplyr)
 - **Statistical approaches:** mixed models, Bayesian inference, quantitative genetics
 
 ## Author
